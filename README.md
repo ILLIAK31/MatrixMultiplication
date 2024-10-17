@@ -4,7 +4,7 @@
 #### To compile this program in the Linux terminal, use the following command:
 `g++ -std=c++11 -pthread -O3 -o App App.cpp`
 <ul>
-   <li>-std=c++11 : Specifies the use of the C++11 standard, which introduces modern features and improvements over previous C++ standards.</li>
+   <li>-std=c++11 : Specifies the use of the C++11 standard.</li>
    <li>-pthread : Enables multi-threading, allowing the program to run more efficiently when working with large matrices.</li>
    <li>-O3 : This is the highest level of optimization in GCC, which enables all optimizations that do not involve a space-speed tradeoff. It aggressively optimizes the code to improve performance, making it 
     especially useful for computationally intensive tasks like multiplying large matrices.</li>
