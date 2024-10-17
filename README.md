@@ -10,7 +10,7 @@
     especially useful for computationally intensive tasks like multiplying large matrices.</li>
 </ul>
 
-![Result.png](./Result.png)
+![Result.png](./Readme/Result.png)
 
 In addition to the usual multiplication of two matrices, I perform multiplication of a regular matrix by a transposed matrix, because it can lead to performance improvements. When one matrix is transposed, data is accessed in a way that may improve cache efficiency, especially when dealing with large matrices. Accessing elements in a transposed matrix aligns with the memory layout better, reducing cache misses and speeding up the multiplication process. This technique is commonly used in optimizing matrix operations in high-performance computing.
 
